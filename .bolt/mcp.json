@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "notion": {
+      "enabled": true
+    },
+    "linear": {
+      "enabled": true
+    },
+    "sentry": {
+      "enabled": true
+    },
+    "context7": {
+      "enabled": true
+    },
+    "shaders": {
+      "enabled": true
+    },
+    "granola": {
+      "enabled": true
+    },
+    "miro": {
+      "enabled": true
+    },
+    "github": {
+      "enabled": true
+    }
+  }
+}
