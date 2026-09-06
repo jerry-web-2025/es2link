@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export type Theme = 'light' | 'dark';
 
 export const LIGHT_LOGO = '/es2link/a-minimalist-abstract-vector-logo-icon-for-a-techn.png';
-export const DARK_LOGO = '/es2link/a-minimalist-abstract-vector-logo-icon-for-a-techn copy.png';
+export const DARK_LOGO = '/es2link/a-minimalist-abstract-vector-logo-icon-for-a-techn.png';
 
 export function useTheme() {
   const [theme, setTheme] = useState<Theme>(() => {
