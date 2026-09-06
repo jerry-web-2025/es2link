@@ -2,19 +2,20 @@
   "name": "Es2LINK",
   "short_name": "Es2LINK",
   "description": "Turn screenshots into links. Extract URLs and QR-code links from images, entirely in your browser.",
-  "start_url": "/",
+  "start_url": "/es2link/",
+  "scope": "/es2link/",
   "display": "standalone",
   "background_color": "#0a0e1a",
   "theme_color": "#2563eb",
   "icons": [
     {
-      "src": "/a-minimalist-abstract-vector-logo-icon-for-a-techn.png",
+      "src": "/es2link/a-minimalist-abstract-vector-logo-icon-for-a-techn.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/a-minimalist-abstract-vector-logo-icon-for-a-techn.png",
+      "src": "/es2link/a-minimalist-abstract-vector-logo-icon-for-a-techn.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
