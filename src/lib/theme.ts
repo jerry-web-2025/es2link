@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 
 export type Theme = 'light' | 'dark';
 
-export const LIGHT_LOGO = '/es2link/a-minimalist-abstract-vector-logo-icon-for-a-techn.png';
-export const DARK_LOGO = '/es2link/a-minimalist-abstract-vector-logo-icon-for-a-techn.png';
+export const LIGHT_LOGO = '/a-minimalist-abstract-vector-logo-icon-for-a-techn.png';
+export const DARK_LOGO = '/a-minimalist-abstract-vector-logo-icon-for-a-techn copy.png';
 
 export function useTheme() {
   const [theme, setTheme] = useState<Theme>(() => {
@@ -18,9 +18,5 @@ export function useTheme() {
     localStorage.setItem('es2link-theme', theme);
   }, [theme]);
 
-  return {
-    theme,
-    toggle: () =>
-      setTheme((current) => (current === 'dark' ? 'light' : 'dark')),
-  };
+  return { theme, toggle: () => setTheme((current) => current === 'dark' ? 'light' : 'dark') };
 }
